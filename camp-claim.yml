@@ -1,0 +1,22 @@
+maintainers:
+- github: Lesterhuis-Training-en-Consultancy
+- github: gemguardian            # TE BEVESTIGEN door Gemma (zelfde handle als in format_vsf)
+
+# Gebaseerd op het LTNC CVD-beleid (Confluence LST). Nog te verifiëren: of een
+# e-mailadres als waarde door de validatie van `camp org-claim` wordt geaccepteerd.
+security-contact: security@ltnc.nl
+
+# Code vrij, geen gratis support; betaalde support beschikbaar.
+labels: [fully-free, commercial-support-available]
+
+overrides:
+  # Heeft een verbinding met een extern WISA-systeem nodig. Let op: het register
+  # verwijst voor local_wisa nu naar een repo buiten onze organisatie, dus deze
+  # override werkt pas als de entry naar onze eigen repo wijst.
+  local_wisa:
+    labels: [external-account, paid-service, commercial-support-available]
+
+# format_vsf bewust NIET uitgesloten (al individueel geclaimd; de sweep laat die ongemoeid).
+# Forks en gearchiveerde repos: exclude is overbodig zolang ze niet in het register
+# staan met een bron onder onze organisatie; hieronder voor de zekerheid toch gezet.
+exclude: [block_configurable_reports, enrol_attributes, block_user_favorites, block_genericotemp, tool_groupautoenrol]
