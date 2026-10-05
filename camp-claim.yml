@@ -1,6 +1,6 @@
 maintainers:
 - github: Lesterhuis-Training-en-Consultancy
-- github: gemguardian            # TE BEVESTIGEN door Gemma (zelfde handle als in format_vsf)
+- github: gemguardian
 
 # Gebaseerd op het LTNC CVD-beleid (Confluence LST). Nog te verifiëren: of een
 # e-mailadres als waarde door de validatie van `camp org-claim` wordt geaccepteerd.
