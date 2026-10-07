@@ -13,6 +13,14 @@ overrides:
   local_wisa:
     labels: [external-account, paid-service, commercial-support-available]
 
+  # Gareth J Barnard blijft co-maintainer van format_vsf (camp-tools#76).
+  format_vsf:
+    maintainers:
+    - github: Lesterhuis-Training-en-Consultancy
+    - github: gemguardian
+    - github: gjb2048
+      name: Gareth J Barnard
+
 # format_vsf bewust NIET uitgesloten: de bestaande individuele claim wordt via het
 # claim-issue omgezet naar deze organisatieclaim (bevestigd door de registry).
 # Forks en block_genericotemp (gearchiveerd, sinds 2020 niet bijgewerkt) blijven buiten de claim.
