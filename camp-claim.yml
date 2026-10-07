@@ -15,5 +15,7 @@ overrides:
 
 # format_vsf bewust NIET uitgesloten: de bestaande individuele claim wordt via het
 # claim-issue omgezet naar deze organisatieclaim (bevestigd door de registry).
-# Forks en gearchiveerde repos blijven buiten de claim.
-exclude: [block_configurable_reports, enrol_attributes, block_user_favorites, block_genericotemp, tool_groupautoenrol]
+# Forks en block_genericotemp (gearchiveerd, sinds 2020 niet bijgewerkt) blijven buiten de claim.
+# block_user_favorites en tool_groupautoenrol: gearchiveerd met adoptie-oproep, wel geclaimd
+# zodat het security-contact bereikbaar blijft.
+exclude: [block_configurable_reports, enrol_attributes, block_genericotemp]
